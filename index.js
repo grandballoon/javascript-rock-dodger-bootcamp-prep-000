@@ -79,7 +79,7 @@ function createRock(x) {
   function moveRock() {
     function move(el) {
       var top = 0
-
+checkCollision();
       function step() {
         el.style.top = `${top +=2}px`
 
