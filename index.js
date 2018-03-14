@@ -93,7 +93,7 @@ function createRock(x) {
         endGame();
       }
     }
-    move();
+    move(rock);
     // implement me!
     // (use the comments below to guide you!)
     /**
