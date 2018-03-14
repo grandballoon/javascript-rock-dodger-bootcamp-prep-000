@@ -88,6 +88,10 @@ function createRock(x) {
         }
       }
       window.requestAnimationFrame(step)
+
+      if (checkCollision == true) {
+        endGame();
+      }
     }
     // implement me!
     // (use the comments below to guide you!)
@@ -95,9 +99,7 @@ function createRock(x) {
      * If a rock collides with the DODGER,
      * we should call endGame()
      */
-     if (checkCollision == true) {
-       endGame();
-     }
+
     /**
      * Otherwise, if the rock hasn't reached the bottom of
      * the GAME, we want to move it again.
