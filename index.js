@@ -162,7 +162,7 @@ if (e.which == 39) {
 }
 
 function moveDodgerLeft() {
-
+DODGER.style.left = `${left += 4}px`
 
 }
 
