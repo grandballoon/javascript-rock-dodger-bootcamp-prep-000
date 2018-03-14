@@ -162,8 +162,9 @@ if (e.which == 39) {
 }
 
 function moveDodgerLeft() {
-if (left > 4){
+
   var left = positionToInteger(DODGER.style.left);
+  if (left > 4){
 DODGER.style.left = `${left -= 4}px`
 }
 }
