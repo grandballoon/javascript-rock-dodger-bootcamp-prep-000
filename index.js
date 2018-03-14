@@ -160,7 +160,7 @@ if (e.which == 39) {
 
 function moveDodgerLeft() {
 
-  
+
 }
 
 function moveDodgerRight() {
