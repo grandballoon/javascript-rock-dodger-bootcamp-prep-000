@@ -132,7 +132,9 @@ function createRock(x) {
  */
 function endGame() {
 clearInterval();
-rock.remove();
+for (i = 0; i < ROCKS.length; i++) {
+  ROCKS[i].remove()
+}
 alert('YOU LOSE!');
 }
 
