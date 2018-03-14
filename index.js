@@ -172,7 +172,7 @@ DODGER.style.left = `${left -= 4}px`
 function moveDodgerRight() {
 
   if (left > 396){
-DODGER.style.right = `${right -= 4}px`
+DODGER.style.left = `${right -= 4}px`
 }
 }
   // implement me!
