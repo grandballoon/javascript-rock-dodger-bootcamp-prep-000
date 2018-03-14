@@ -140,12 +140,15 @@ alert('YOU LOSE!');
 }
 
 function moveDodger(e) {
+
+if (e.which == 37) {
   e.preventDefault();
   e.stopPropagation();
-if (e.which == 37) {
   moveDodgerLeft();
 }
 if (e.which == 39) {
+  e.preventDefault();
+  e.stopPropagation();
   moveDodgerRight();
 }
   // implement me!
