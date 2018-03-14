@@ -140,7 +140,14 @@ alert('YOU LOSE!');
 }
 
 function moveDodger(e) {
-
+  e.preventDefault();
+  e.stopPropagation();
+if (e.which == 37) {
+  moveDodgerLeft();
+}
+if (e.which == 39) {
+  moveDodgerRight();
+}
   // implement me!
   /**
    * This function should call `moveDodgerLeft()`
@@ -153,6 +160,7 @@ function moveDodger(e) {
 
 function moveDodgerLeft() {
 
+  
 }
 
 function moveDodgerRight() {
