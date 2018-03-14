@@ -135,7 +135,6 @@ clearInterval();
 for (i = 0; i < ROCKS.length; i++) {
   ROCKS[i].remove()
 }
-removeEventListener();
 alert('YOU LOSE!');
 }
 
