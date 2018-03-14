@@ -170,6 +170,12 @@ DODGER.style.left = `${left -= 4}px`
 }
 
 function moveDodgerRight() {
+
+  var right = positionToInteger(DODGER.style.right);
+  if (right > 4){
+    DODGER.style.left = `${right -=4}px`
+  }
+}
   // implement me!
   /**
    * This function should move DODGER to the right
