@@ -77,7 +77,7 @@ function createRock(x) {
    * seems like a good pace.)
    */
   function moveRock() {
-    function move(el) {
+
       var top = 0
 
       function step() {
@@ -92,8 +92,8 @@ function createRock(x) {
       if (checkCollision() == true) {
         endGame();
       }
-    }
-    move(rock);
+
+    
     // implement me!
     // (use the comments below to guide you!)
     /**
