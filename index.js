@@ -81,7 +81,7 @@ function createRock(x) {
       var top = 0
 
       function step() {
-        el.style.top = `${top +=2}px`
+        rock.style.top = `${top +=2}px`
 
         if (top < 400) {
           window.requestAnimationFrame(step)
@@ -93,7 +93,7 @@ function createRock(x) {
         endGame();
       }
 
-    
+
     // implement me!
     // (use the comments below to guide you!)
     /**
